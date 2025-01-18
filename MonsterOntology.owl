@@ -13,6 +13,11 @@
   <rdfs:range rdf:resource="#Material"/>
 </owl:ObjectProperty>
 
+<owl:ObjectProperty rdf:about="#HasElement">
+  <rdfs:domain rdf:resource="#WitcherArsenal"/>
+  <rdfs:range rdf:resource="#Element"/>
+</owl:ObjectProperty>
+
 <owl:ObjectProperty rdf:about="#HasHabitat">
   <rdfs:domain rdf:resource="#Monster"/>
   <rdfs:range rdf:resource="#Habitat"/>
@@ -34,6 +39,11 @@
 <owl:ObjectProperty rdf:about="#DropsLoot">
   <rdfs:domain rdf:resource="#Monster"/>
   <rdfs:range rdf:resource="#Loot"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#IsEffectiveAgainst">
+  <rdfs:domain rdf:resource="#WitcherArsenal"/>
+  <rdfs:range rdf:resource="#Monster"/>
 </owl:ObjectProperty>
 
 <owl:DatatypeProperty rdf:about="#HasPrice">
@@ -146,16 +156,24 @@
   <rdfs:subClassOf rdf:resource="#WitcherArsenal"/>
 </owl:Class>
 
-<owl:Class rdf:about="#DancingStar">
-  <rdfs:subClassOf rdf:resource="#Bomb"/>
-</owl:Class>
-
 <owl:Class rdf:about="#Sign">
   <rdfs:subClassOf rdf:resource="#WitcherArsenal"/>
 </owl:Class>
 
 <owl:Class rdf:about="#Igni">
   <rdfs:subClassOf rdf:resource="#Sign"/>
+  <rdfs:subClassOf rdf:resource="#WitcherThing"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#Sign"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#HasElement"/>
+          <owl:hasValue rdf:resource="#element1"/>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
 </owl:Class>
 
 <owl:Class rdf:about="#Axii">
@@ -173,6 +191,18 @@
       <owl:oneOf rdf:parseType="Collection">
         <rdf:Description rdf:about="#material1"/>
         <rdf:Description rdf:about="#material2"/>
+      </owl:oneOf>
+    </owl:Class>
+  </rdfs:subClassOf>
+</owl:Class>
+
+<owl:Class rdf:about="#Element">
+  <rdfs:subClassOf rdf:resource="#WitcherThing"/>
+  <rdfs:subClassOf>
+    <owl:Class>
+      <owl:oneOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#element1"/>
+        <rdf:Description rdf:about="#element2"/>
       </owl:oneOf>
     </owl:Class>
   </rdfs:subClassOf>
@@ -266,10 +296,30 @@
   </owl:equivalentClass>
 </owl:Class>
 
+<owl:Class rdf:about="#DancingStar">
+  <rdfs:subClassOf rdf:resource="#WitcherThing"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <rdf:Description rdf:about="#Bomb"/>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#HasElement"/>
+          <owl:hasValue rdf:resource="#element1"/>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
 <owl:Class rdf:about="#IsDroppedBy">
   <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
   <rdfs:domain rdf:resource="#Loot"/>
   <rdfs:range rdf:resource="#Monster"/>
+</owl:Class>
+
+<owl:Class rdf:about="#CanBeFoundAt">
+  <rdfs:subClassOf rdf:resource="#Loot"/>
+  <rdfs:subClassOf rdf:resource="#Habitat"/>
 </owl:Class>
 
 <owl:Class rdf:about="#HighValueLoot">
@@ -1370,6 +1420,14 @@
 
 <owl:NamedIndividual rdf:about="#material2">
   <rdf:type rdf:resource="#Material"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#element1">
+  <rdf:type rdf:resource="#Element"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#element2">
+  <rdf:type rdf:resource="#Element"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#silverweakness1">
