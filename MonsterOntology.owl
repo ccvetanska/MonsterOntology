@@ -14,6 +14,7 @@
 </owl:ObjectProperty>
 
 <owl:ObjectProperty rdf:about="#HasElement">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
   <rdfs:domain rdf:resource="#WitcherArsenal"/>
   <rdfs:range rdf:resource="#Element"/>
 </owl:ObjectProperty>
@@ -60,50 +61,6 @@
   <rdfs:subClassOf rdf:resource="#WitcherThing"/>
 </owl:Class>
 
-<owl:Class rdf:about="#Vampires">
-  <rdfs:subClassOf rdf:resource="#Monster"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Relicts">
-  <rdfs:subClassOf rdf:resource="#Monster"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Specters">
-  <rdfs:subClassOf rdf:resource="#Monster"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Necrophages">
-  <rdfs:subClassOf rdf:resource="#Monster"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Beasts">
-  <rdfs:subClassOf rdf:resource="#Monster"/>
-</owl:Class>
-
-<owl:Class rdf:about="#CursedOnes">
-  <rdfs:subClassOf rdf:resource="#Monster"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Hybrids">
-  <rdfs:subClassOf rdf:resource="#Monster"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Insectoids">
-  <rdfs:subClassOf rdf:resource="#Monster"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Elementa">
-  <rdfs:subClassOf rdf:resource="#Monster"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Draconids">
-  <rdfs:subClassOf rdf:resource="#Monster"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Ogroids">
-  <rdfs:subClassOf rdf:resource="#Monster"/>
-</owl:Class>
-
 <owl:Class rdf:about="#Habitat">
   <rdfs:subClassOf rdf:resource="#WitcherThing"/>
 </owl:Class>
@@ -148,36 +105,12 @@
   <rdfs:subClassOf rdf:resource="#WitcherArsenal"/>
 </owl:Class>
 
-<owl:Class rdf:about="#VampireOil">
-  <rdfs:subClassOf rdf:resource="#Oil"/>
-</owl:Class>
-
 <owl:Class rdf:about="#Bomb">
   <rdfs:subClassOf rdf:resource="#WitcherArsenal"/>
 </owl:Class>
 
 <owl:Class rdf:about="#Sign">
   <rdfs:subClassOf rdf:resource="#WitcherArsenal"/>
-</owl:Class>
-
-<owl:Class rdf:about="#Igni">
-  <rdfs:subClassOf rdf:resource="#Sign"/>
-  <rdfs:subClassOf rdf:resource="#WitcherThing"/>
-  <owl:equivalentClass>
-    <owl:Class>
-      <owl:intersectionOf rdf:parseType="Collection">
-        <rdf:Description rdf:about="#Sign"/>
-        <owl:Restriction>
-          <owl:onProperty rdf:resource="#HasElement"/>
-          <owl:hasValue rdf:resource="#element1"/>
-        </owl:Restriction>
-      </owl:intersectionOf>
-    </owl:Class>
-  </owl:equivalentClass>
-</owl:Class>
-
-<owl:Class rdf:about="#Axii">
-  <rdfs:subClassOf rdf:resource="#Sign"/>
 </owl:Class>
 
 <owl:Class rdf:about="#Sword">
@@ -201,8 +134,8 @@
   <rdfs:subClassOf>
     <owl:Class>
       <owl:oneOf rdf:parseType="Collection">
-        <rdf:Description rdf:about="#element1"/>
-        <rdf:Description rdf:about="#element2"/>
+        <rdf:Description rdf:about="#fire"/>
+        <rdf:Description rdf:about="#water"/>
       </owl:oneOf>
     </owl:Class>
   </rdfs:subClassOf>
@@ -296,15 +229,15 @@
   </owl:equivalentClass>
 </owl:Class>
 
-<owl:Class rdf:about="#DancingStar">
+<owl:Class rdf:about="#Igni">
   <rdfs:subClassOf rdf:resource="#WitcherThing"/>
   <owl:equivalentClass>
     <owl:Class>
       <owl:intersectionOf rdf:parseType="Collection">
-        <rdf:Description rdf:about="#Bomb"/>
+        <rdf:Description rdf:about="#Sign"/>
         <owl:Restriction>
           <owl:onProperty rdf:resource="#HasElement"/>
-          <owl:hasValue rdf:resource="#element1"/>
+          <owl:hasValue rdf:resource="#fire"/>
         </owl:Restriction>
       </owl:intersectionOf>
     </owl:Class>
@@ -320,6 +253,124 @@
 <owl:Class rdf:about="#CanBeFoundAt">
   <rdfs:subClassOf rdf:resource="#Loot"/>
   <rdfs:subClassOf rdf:resource="#Habitat"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Vampires">
+  <rdfs:subClassOf rdf:resource="#Monster"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#HasWeakness"/>
+          <owl:hasValue rdf:resource="#vampireOil"/>
+        </owl:Restriction>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#HasWeakness"/>
+          <owl:hasValue rdf:resource="#silverweakness1"/>
+        </owl:Restriction>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#HasWeakness"/>
+          <owl:hasValue rdf:resource="#fire"/>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#Relicts">
+  <rdfs:subClassOf rdf:resource="#Monster"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#HasWeakness"/>
+          <owl:hasValue rdf:resource="#relictOil"/>
+        </owl:Restriction>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#HasWeakness"/>
+          <owl:hasValue rdf:resource="#silverweakness1"/>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#Specters">
+  <rdfs:subClassOf rdf:resource="#Monster"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#HasWeakness"/>
+          <owl:hasValue rdf:resource="#specterOil"/>
+        </owl:Restriction>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#HasWeakness"/>
+          <owl:hasValue rdf:resource="#silverweakness1"/>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#Necrophages">
+  <rdfs:subClassOf rdf:resource="#Monster"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Beasts">
+  <rdfs:subClassOf rdf:resource="#Monster"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#HasWeakness"/>
+          <owl:hasValue rdf:resource="#beastOil"/>
+        </owl:Restriction>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#HasWeakness"/>
+          <owl:hasValue rdf:resource="#steelweakness1"/>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#CursedOnes">
+  <rdfs:subClassOf rdf:resource="#Monster"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Hybrids">
+  <rdfs:subClassOf rdf:resource="#Monster"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#HasWeakness"/>
+          <owl:hasValue rdf:resource="#hybridOil"/>
+        </owl:Restriction>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#HasWeakness"/>
+          <owl:hasValue rdf:resource="#silverweakness1"/>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#Insectoids">
+  <rdfs:subClassOf rdf:resource="#Monster"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Elementa">
+  <rdfs:subClassOf rdf:resource="#Monster"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Draconids">
+  <rdfs:subClassOf rdf:resource="#Monster"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Ogroids">
+  <rdfs:subClassOf rdf:resource="#Monster"/>
 </owl:Class>
 
 <owl:Class rdf:about="#HighValueLoot">
@@ -1414,6 +1465,110 @@
   </owl:equivalentClass>
 </owl:Class>
 
+<owl:Class rdf:about="#Ekimmara">
+  <rdfs:subClassOf rdf:resource="#Vampires"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#HasHabitat"/>
+          <owl:hasValue rdf:resource="#Cave"/>
+        </owl:Restriction>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#DropsLoot"/>
+          <owl:hasValue rdf:resource="#VampireFang"/>
+        </owl:Restriction>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#DropsLoot"/>
+          <owl:hasValue rdf:resource="#EkimmaraHide"/>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#Nightwraith">
+  <rdfs:subClassOf rdf:resource="#Specters"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#HasHabitat"/>
+          <owl:hasValue rdf:resource="#Ruins"/>
+        </owl:Restriction>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#DropsLoot"/>
+          <owl:hasValue rdf:resource="#SpecterDust"/>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#Griffin">
+  <rdfs:subClassOf rdf:resource="#Hybrids"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#HasHabitat"/>
+          <owl:hasValue rdf:resource="#Ruins"/>
+        </owl:Restriction>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#DropsLoot"/>
+          <owl:hasValue rdf:resource="#GriffinFeathers"/>
+        </owl:Restriction>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#DropsLoot"/>
+          <owl:hasValue rdf:resource="#GriffinsEgg"/>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#Wolf">
+  <rdfs:subClassOf rdf:resource="#Beasts"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#HasHabitat"/>
+          <owl:hasValue rdf:resource="#Forest"/>
+        </owl:Restriction>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#DropsLoot"/>
+          <owl:hasValue rdf:resource="#WolfsLiver"/>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:NamedIndividual rdf:about="#vampireOil">
+  <rdf:type rdf:resource="#Oil"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#relictOil">
+  <rdf:type rdf:resource="#Oil"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#specterOil">
+  <rdf:type rdf:resource="#Oil"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#beastOil">
+  <rdf:type rdf:resource="#Oil"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#cursedOil">
+  <rdf:type rdf:resource="#Oil"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#hybridOil">
+  <rdf:type rdf:resource="#Oil"/>
+</owl:NamedIndividual>
+
 <owl:NamedIndividual rdf:about="#material1">
   <rdf:type rdf:resource="#Material"/>
 </owl:NamedIndividual>
@@ -1422,11 +1577,11 @@
   <rdf:type rdf:resource="#Material"/>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#element1">
+<owl:NamedIndividual rdf:about="#fire">
   <rdf:type rdf:resource="#Element"/>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#element2">
+<owl:NamedIndividual rdf:about="#water">
   <rdf:type rdf:resource="#Element"/>
 </owl:NamedIndividual>
 
@@ -1436,6 +1591,11 @@
 
 <owl:NamedIndividual rdf:about="#steelweakness1">
   <rdf:type rdf:resource="#SteelWeakness"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#dancingStar">
+  <rdf:type rdf:resource="#Bomb"/>
+  <HasElement rdf:resource="#fire"/>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#AlghoulBoneMarrow">
@@ -1503,61 +1663,8 @@
   <HasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">604</HasPrice>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#Ekimmara">
-  <rdf:type rdf:resource="#Vampires"/>
-  <HasWeakness rdf:resource="#silverweakness1"/>
-  <HasHabitat rdf:resource="#cave1"/>
-  <DropsLoot rdf:resource="#VampireFang"/>
-  <DropsLoot rdf:resource="#EkimmaraHide"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#cave1">
-  <rdf:type rdf:resource="#Cave"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#Leshen">
-  <rdf:type rdf:resource="#Relicts"/>
-  <HasWeakness rdf:resource="#silverweakness1"/>
-  <HasHabitat rdf:resource="#forest1"/>
-  <DropsLoot rdf:resource="#LeshenResin"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#forest1">
-  <rdf:type rdf:resource="#Forest"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#Noonwraith">
-  <rdf:type rdf:resource="#Specters"/>
-  <HasWeakness rdf:resource="#silverweakness1"/>
-  <HasHabitat rdf:resource="#ruins1"/>
-  <DropsLoot rdf:resource="#SpecterDust"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#ruins1">
-  <rdf:type rdf:resource="#Ruins"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#Griffin">
-  <rdf:type rdf:resource="#Hybrids"/>
-  <HasWeakness rdf:resource="#silverweakness1"/>
-  <HasHabitat rdf:resource="#ruins2"/>
-  <DropsLoot rdf:resource="#GriffinFeathers"/>
-  <DropsLoot rdf:resource="#GriffinsEgg"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#ruins2">
-  <rdf:type rdf:resource="#Ruins"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#Wolf">
-  <rdf:type rdf:resource="#Beasts"/>
-  <HasWeakness rdf:resource="#steelweakness1"/>
-  <HasHabitat rdf:resource="#forest2"/>
-  <DropsLoot rdf:resource="#WolfsLiver"/>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#forest2">
-  <rdf:type rdf:resource="#Forest"/>
+<owl:NamedIndividual rdf:about="#JennyOfTheWoods">
+  <rdf:type rdf:resource="#Nightwraith"/>
 </owl:NamedIndividual>
 
 
