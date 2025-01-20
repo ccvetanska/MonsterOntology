@@ -315,6 +315,20 @@
 
 <owl:Class rdf:about="#Necrophages">
   <rdfs:subClassOf rdf:resource="#Monster"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#HasWeakness"/>
+          <owl:hasValue rdf:resource="#specterOil"/>
+        </owl:Restriction>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#HasWeakness"/>
+          <owl:hasValue rdf:resource="#silverweakness1"/>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
 </owl:Class>
 
 <owl:Class rdf:about="#Beasts">
@@ -359,18 +373,74 @@
 
 <owl:Class rdf:about="#Insectoids">
   <rdfs:subClassOf rdf:resource="#Monster"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#HasWeakness"/>
+          <owl:hasValue rdf:resource="#insectoidOil"/>
+        </owl:Restriction>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#HasWeakness"/>
+          <owl:hasValue rdf:resource="#silverweakness1"/>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
 </owl:Class>
 
 <owl:Class rdf:about="#Elementa">
   <rdfs:subClassOf rdf:resource="#Monster"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#HasWeakness"/>
+          <owl:hasValue rdf:resource="#elementaOil"/>
+        </owl:Restriction>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#HasWeakness"/>
+          <owl:hasValue rdf:resource="#silverweakness1"/>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
 </owl:Class>
 
 <owl:Class rdf:about="#Draconids">
   <rdfs:subClassOf rdf:resource="#Monster"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#HasWeakness"/>
+          <owl:hasValue rdf:resource="#draconidOil"/>
+        </owl:Restriction>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#HasWeakness"/>
+          <owl:hasValue rdf:resource="#silverweakness1"/>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
 </owl:Class>
 
 <owl:Class rdf:about="#Ogroids">
   <rdfs:subClassOf rdf:resource="#Monster"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#HasWeakness"/>
+          <owl:hasValue rdf:resource="#hybridOil"/>
+        </owl:Restriction>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#HasWeakness"/>
+          <owl:hasValue rdf:resource="#ogroidOil"/>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
 </owl:Class>
 
 <owl:Class rdf:about="#HighValueLoot">
@@ -680,7 +750,2512 @@
                 <rdf:rest>
                 <rdf:Description>
               <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">198</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">199</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">201</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">202</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">203</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">204</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">205</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">206</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">207</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">208</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">209</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">210</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">211</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">212</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">213</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">214</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">215</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">216</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">217</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">218</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">219</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">220</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">221</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">222</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">223</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">224</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">225</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">226</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">227</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">228</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">229</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">230</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">231</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">232</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">233</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">234</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">235</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">236</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">237</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">238</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">239</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">240</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">241</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">242</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">243</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">244</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">245</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">246</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">247</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">248</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">249</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">250</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">251</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">252</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">253</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">254</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">255</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">256</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">257</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">258</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">259</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">260</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">261</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">262</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">263</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">264</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">265</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">266</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">267</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">268</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">269</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">270</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">271</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">272</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">273</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">274</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">275</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">276</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">277</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">278</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">279</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">280</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">281</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">282</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">283</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">284</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">285</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">286</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">287</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">288</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">289</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">290</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">291</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">292</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">293</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">294</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">295</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">296</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">297</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">298</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">299</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">300</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">301</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">302</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">303</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">304</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">305</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">306</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">307</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">308</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">309</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">310</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">311</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">312</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">313</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">314</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">315</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">316</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">317</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">318</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">319</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">320</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">321</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">322</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">323</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">324</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">325</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">326</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">327</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">328</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">329</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">330</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">331</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">332</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">333</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">334</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">335</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">336</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">337</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">338</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">339</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">340</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">341</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">342</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">343</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">344</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">345</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">346</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">347</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">348</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">349</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">350</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">351</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">352</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">353</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">354</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">355</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">356</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">357</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">358</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">359</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">360</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">361</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">362</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">363</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">364</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">365</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">366</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">367</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">368</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">369</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">370</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">371</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">372</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">373</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">374</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">375</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">376</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">377</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">378</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">379</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">380</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">381</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">382</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">383</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">384</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">385</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">386</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">387</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">388</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">389</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">390</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">391</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">392</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">393</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">394</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">395</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">396</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">397</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">398</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">399</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">400</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">401</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">402</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">403</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">404</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">405</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">406</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">407</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">408</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">409</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">410</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">411</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">412</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">413</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">414</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">415</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">416</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">417</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">418</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">419</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">420</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">421</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">422</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">423</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">424</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">425</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">426</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">427</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">428</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">429</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">430</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">431</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">432</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">433</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">434</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">435</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">436</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">437</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">438</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">439</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">440</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">441</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">442</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">443</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">444</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">445</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">446</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">447</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">448</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">449</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">450</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">451</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">452</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">453</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">454</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">455</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">456</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">457</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">458</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">459</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">460</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">461</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">462</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">463</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">464</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">465</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">466</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">467</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">468</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">469</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">470</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">471</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">472</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">473</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">474</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">475</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">476</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">477</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">478</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">479</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">480</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">481</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">482</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">483</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">484</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">485</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">486</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">487</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">488</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">489</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">490</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">491</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">492</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">493</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">494</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">495</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">496</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">497</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">498</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">499</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">500</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">501</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">502</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">503</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">504</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">505</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">506</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">507</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">508</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">509</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">510</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">511</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">512</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">513</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">514</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">515</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">516</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">517</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">518</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">519</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">520</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">521</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">522</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">523</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">524</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">525</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">526</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">527</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">528</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">529</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">530</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">531</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">532</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">533</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">534</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">535</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">536</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">537</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">538</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">539</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">540</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">541</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">542</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">543</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">544</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">545</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">546</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">547</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">548</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">549</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">550</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">551</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">552</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">553</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">554</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">555</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">556</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">557</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">558</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">559</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">560</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">561</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">562</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">563</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">564</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">565</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">566</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">567</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">568</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">569</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">570</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">571</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">572</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">573</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">574</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">575</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">576</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">577</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">578</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">579</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">580</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">581</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">582</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">583</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">584</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">585</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">586</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">587</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">588</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">589</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">590</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">591</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">592</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">593</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">594</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">595</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">596</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">597</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">598</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">599</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">600</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">601</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">602</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">603</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">604</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">605</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">606</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">607</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">608</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">609</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">610</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">611</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">612</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">613</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">614</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">615</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">616</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">617</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">618</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">619</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">620</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">621</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">622</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">623</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">624</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">625</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">626</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">627</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">628</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">629</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">630</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">631</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">632</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">633</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">634</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">635</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">636</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">637</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">638</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">639</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">640</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">641</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">642</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">643</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">644</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">645</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">646</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">647</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">648</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">649</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">650</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">651</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">652</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">653</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">654</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">655</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">656</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">657</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">658</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">659</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">660</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">661</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">662</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">663</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">664</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">665</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">666</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">667</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">668</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">669</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">670</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">671</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">672</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">673</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">674</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">675</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">676</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">677</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">678</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">679</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">680</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">681</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">682</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">683</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">684</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">685</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">686</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">687</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">688</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">689</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">690</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">691</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">692</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">693</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">694</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">695</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">696</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">697</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">698</rdf:first>
+                <rdf:rest>
+                <rdf:Description>
+              <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">699</rdf:first>
                 <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
+                </rdf:Description>
+                </rdf:rest>
                 </rdf:Description>
                 </rdf:rest>
                 </rdf:Description>
@@ -1569,6 +4144,26 @@
   <rdf:type rdf:resource="#Oil"/>
 </owl:NamedIndividual>
 
+<owl:NamedIndividual rdf:about="#necrofageOil">
+  <rdf:type rdf:resource="#Oil"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#ogroidOil">
+  <rdf:type rdf:resource="#Oil"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#elementaOil">
+  <rdf:type rdf:resource="#Oil"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#insectoidOil">
+  <rdf:type rdf:resource="#Oil"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#draconidOil">
+  <rdf:type rdf:resource="#Oil"/>
+</owl:NamedIndividual>
+
 <owl:NamedIndividual rdf:about="#material1">
   <rdf:type rdf:resource="#Material"/>
 </owl:NamedIndividual>
@@ -1635,7 +4230,7 @@
 
 <owl:NamedIndividual rdf:about="#EkimmaraHide">
   <rdf:type rdf:resource="#MasterItem"/>
-  <HasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</HasPrice>
+  <HasPrice rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">294</HasPrice>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#SpecterDust">
@@ -1665,6 +4260,10 @@
 
 <owl:NamedIndividual rdf:about="#JennyOfTheWoods">
   <rdf:type rdf:resource="#Nightwraith"/>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#giantWolf">
+  <rdf:type rdf:resource="#Wolf"/>
 </owl:NamedIndividual>
 
 
