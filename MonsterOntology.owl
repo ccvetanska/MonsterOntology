@@ -351,6 +351,20 @@
 
 <owl:Class rdf:about="#CursedOnes">
   <rdfs:subClassOf rdf:resource="#Monster"/>
+  <owl:equivalentClass>
+    <owl:Class>
+      <owl:intersectionOf rdf:parseType="Collection">
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#HasWeakness"/>
+          <owl:hasValue rdf:resource="#cursedOil"/>
+        </owl:Restriction>
+        <owl:Restriction>
+          <owl:onProperty rdf:resource="#HasWeakness"/>
+          <owl:hasValue rdf:resource="#silverweakness1"/>
+        </owl:Restriction>
+      </owl:intersectionOf>
+    </owl:Class>
+  </owl:equivalentClass>
 </owl:Class>
 
 <owl:Class rdf:about="#Hybrids">
@@ -4037,6 +4051,16 @@
         </owl:Restriction>
       </owl:intersectionOf>
     </owl:Class>
+  </owl:equivalentClass>
+</owl:Class>
+
+<owl:Class rdf:about="#KilledByFire">
+  <rdfs:subClassOf rdf:resource="#WitcherThing"/>
+  <owl:equivalentClass>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="#HasWeakness"/>
+      <owl:hasValue rdf:resource="#fire"/>
+    </owl:Restriction>
   </owl:equivalentClass>
 </owl:Class>
 
