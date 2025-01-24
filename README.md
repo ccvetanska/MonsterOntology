@@ -13,8 +13,10 @@ The various elements of the ontology are described below in the DL language
 <h4>1. Concepts (Classes)</h4>
 <code>WitcherThing ⊑ Thing
 Monster ⊑ WitcherThing
-Beasts ⊑ [AND Monster [FILLS :HasWeakness beastOil] [FILLS :HasWeakness steelWeakness]]
-Vampires ⊑ [AND Monster [FILLS :HasWeakness vampireOil] [FILLS :HasWeakness silverWeakness] [FILLS :HasWeakness fire]]
+Beasts ⊑ [AND Monster [FILLS :HasWeakness beastOil] 
+    [FILLS :HasWeakness steelWeakness]]
+Vampires ⊑ [AND Monster [FILLS :HasWeakness vampireOil] 
+    [FILLS :HasWeakness silverWeakness] [FILLS :HasWeakness fire]]
 Relicts ⊑ [AND Monster [FILLS :HasWeakness relictOil silverWeakness]]
 Specters ⊑ [AND Monster [FILLS :HasWeakness specterOil silverWeakness]]
 Necrophages ⊑ [AND Monster [FILLS :HasWeakness necrofageOil silverWeakness]]
@@ -42,9 +44,9 @@ Material ≐ [AND WitcherThing [ONE-OF silver steel]]
 Element ≐ [AND WitcherThing [ONE-OF fire water]]
 SilverSword ≐ [AND Sword [FILLS :HasMaterial silver]]
 SteelSword ≐ [AND Sword [FILLS :HasMaterial steel]]
-
-Weekness ⊑ WitcherThing
-MaterialWeakness ≐ [AND Weakness [FILLS :HasMaterial [ONE-OF silver steel]]
+Weakness ⊑ WitcherThing
+MaterialWeakness ≐ [AND Weakness [FILLS :HasMaterial 
+    [ONE-OF silver steel]]
 SilverWeakness ≐ [AND Weakness [ALL :HasMaterial silver]]
 SteelWeakness ≐ [AND Weakness [ALL :HasMaterial steel]]
 DancingStar ≐ [AND Bomb [FILLS :HasElement fire]]
@@ -56,12 +58,17 @@ LowValueLootMonster ≐ [AND Monster [EXISTS 1 :DropsLoot LowValueLoot]]
 CommonLootMonster ≐ [AND Monster [EXISTS 1 :DropsLoot CommonItem]]
 MagicLootMonster ≐ [AND Monster [EXISTS 1 :DropsLoot MagicItem]]
 KilledByFire ≐ [FILLS :hasWeakness fire]
-Ekimmara ≐ [AND Vampires [FILLS :HasWeakness silverWeakness] [FILLS :HasHabitat cave] [FILLS :DropsLoot vampireFang ekimmaraHide]]
-Leshen ≐ [AND Relicts [FILLS :HasWeakness silverWeakness] [FILLS :HasHabitat forest] [FILLS :DropsLoot leshenResin]]
-Noonwraith ≐ [AND Specters [FILLS :HasWeakness silverWeakness] [FILLS :HasHabitat ruins] [FILLS :DropsLoot specterDust]]
+Ekimmara ≐ [AND Vampires [FILLS :HasWeakness silverWeakness] 
+        [FILLS :HasHabitat cave] 
+        [FILLS :DropsLoot vampireFang ekimmaraHide]]
+Leshen ≐ [AND Relicts [FILLS :HasWeakness silverWeakness] 
+        [FILLS :HasHabitat forest] [FILLS :DropsLoot leshenResin]]
+Noonwraith ≐ [AND Specters [FILLS :HasWeakness silverWeakness] 
+        [FILLS :HasHabitat ruins] [FILLS :DropsLoot specterDust]]
 Griffin ≐ [AND Hybrids [FILLS :HasWeakness silverWeakness]
-    [FILLS :HasHabitat ruins] [FILLS :DropsLoot griffinFeathers griffinsEgg]]
-Wolf ≐ [AND Beasts [FILLS :HasWeakness steelWeakness] [FILLS :HasHabitat forest] [FILLS :DropsLoot wolfsLiver]]
+        [FILLS :HasHabitat ruins] [FILLS :DropsLoot griffinFeathers griffinsEgg]]
+Wolf ≐ [AND Beasts [FILLS :HasWeakness steelWeakness] 
+        [FILLS :HasHabitat forest] [FILLS :DropsLoot wolfsLiver]]
 </code>
 
 <h4>2. Properties (Relations)</h4>
